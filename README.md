@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
+## TrgProject
+Info:
+Main route: http://localhost:4200/
+Second route:  /manage ( http://localhost:4200/manage)
+
+Bonus task done: "Add a search input next to “create location” that allows the user to filter the table by any value."
+
+<hr>
+## General info 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

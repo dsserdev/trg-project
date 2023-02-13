@@ -10,7 +10,9 @@ Bonus task done: "Add a search input next to “create location” that allows t
 
 <hr>
 <hr>
+
 ## General info 
+
 Auto generated info below:
 
 ## Development server

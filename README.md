@@ -9,8 +9,9 @@ Second route:  /manage ( http://localhost:4200/manage) <br />
 Bonus task done: "Add a search input next to “create location” that allows the user to filter the table by any value."<br />
 
 <hr>
-## General info below
 <hr>
+## General info 
+Auto generated info below:
 
 ## Development server
 

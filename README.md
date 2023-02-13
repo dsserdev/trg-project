@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
-## Custom Info
+## Custom Info 👨🏻‍💻
 Main route: http://localhost:4200/ <br />
 Second route:  /manage ( http://localhost:4200/manage) <br />
 

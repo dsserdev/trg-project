@@ -1,0 +1,15 @@
+.modal-add-location {
+  width: 500px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .modal-add-location {
+    width: 100%;
+    max-width: 500px;
+  }
+}

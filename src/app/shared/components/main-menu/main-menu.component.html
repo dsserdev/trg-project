@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <button mat-raised-button [matMenuTriggerFor]="menu">
+    <span>Menu</span>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item [routerLink]="['/']" routerLinkActive="active-menu-item" #tooltip="matTooltip" matTooltip="Go to main route"
+      matTooltipPosition="right"> View Map</button>
+    <button mat-menu-item [routerLink]="['/manage']" routerLinkActive="active-menu-item" #tooltip="matTooltip" matTooltip="Go to second route"
+      matTooltipPosition="right">Data
+      Management</button>
+  </mat-menu>
+</mat-toolbar>

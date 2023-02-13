@@ -1,0 +1,29 @@
+<!-- <app-main-menu></app-main-menu> -->
+
+<div *ngIf="apiLoaded | async">
+
+  <div class="menu">
+    <button mat-raised-button color="primary" [routerLink]="['/manage']" #tooltip="matTooltip"
+      matTooltip="Go to second route">Data Management</button>
+  </div>
+
+  <div id="container">
+    <div *ngIf="currentMarker" id="sidebar" [hidden]="!showSidebar">
+      <hr />
+      <div>Name:</div>
+      <div>{{currentMarker.name}}</div>
+      <hr />
+      <div>Coordinates:</div>
+      <div>Lat: {{currentMarker.lat}}</div>
+      <div>Lng: {{currentMarker.lng}}</div>
+      <hr />
+    </div>
+    <google-map id="map" width="auto" height="100vh" [center]="center" [zoom]="zoom" [class.has-sidebar]="!showSidebar">
+
+      <map-marker #markerElem="mapMarker" *ngFor="let marker of markers" [position]="marker.coordinates"
+        (mapClick)="openInfoWindow(markerElem, marker)"></map-marker>
+
+      <map-info-window></map-info-window>
+    </google-map>
+  </div>
+</div>

@@ -1,0 +1,85 @@
+.basic-container {
+  padding: 30px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  width: 50%;
+}
+
+button.color-white {
+  color: #fff;
+}
+
+button.bg-green {
+  background-color: #66cc33;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.search-no-data {
+  padding: 10px 20px;
+}
+
+.hide-title {
+  display: none;
+}
+
+
+@media screen and (max-width: 767px) {
+  .mat-elevation-z8 {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  mat-header-row {
+    display: none;
+  }
+
+  mat-table {
+    background: transparent;
+  }
+
+  mat-table * {
+    box-sizing: border-box;
+  }
+
+  mat-table mat-row {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    clear: both;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    border-radius: 3px;
+  }
+
+  mat-table mat-row+mat-row {
+    margin-top: 15px;
+  }
+
+  mat-table mat-cell {
+    width: 100%;
+    border: 0 none;
+  }
+
+  mat-table mat-cell:first-child {
+    padding: 0 16px 0 16px;
+  }
+
+  mat-paginator {
+    margin-top: 24px;
+  }
+
+  .hide-title {
+    display: inline;
+  }
+}

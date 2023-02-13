@@ -2,13 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
-## TrgProject
-Info:<br />
+## Custom Info
 Main route: http://localhost:4200/ <br />
 Second route:  /manage ( http://localhost:4200/manage) <br />
 
 Bonus task done: "Add a search input next to “create location” that allows the user to filter the table by any value."<br />
 
+<hr>
 <hr>
 ## General info 
 <br />

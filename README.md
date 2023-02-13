@@ -9,9 +9,9 @@ Second route:  /manage ( http://localhost:4200/manage) <br />
 Bonus task done: "Add a search input next to “create location” that allows the user to filter the table by any value."<br />
 
 <hr>
+## General info below
 <hr>
-## General info 
-<br />
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
